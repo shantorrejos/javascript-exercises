@@ -24,7 +24,7 @@ The next block (`describe()`) is the body of the test.  Basically, all it's doin
 
 For now you do not need to worry about how to write tests, but you should try to get comfortable enough with the syntax to figure out what the tests are asking you to do.  Go ahead and run the tests by entering `npm test helloWorld.spec.js` in the terminal and watch it fail.  The output from that command should tell you exactly what went wrong with your code.  In this case, running the `helloWorld()` function should return the phrase 'Hello, World!' but instead it returns an empty string...
 
-so let's look at the javascript file:
+so let's look at the javascript file: 
 ```javascript
 const helloWorld = function() {
   return ''
